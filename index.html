@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>EnchantmentLottery Statistics</title>
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <meta property="og:title" content="A Basic HTML5 Template">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<div class="header">
+    <a href="#default" class="logo">Enchantment Lottery Statistics</a>
+    <div class="header-right">
+      <a class="active" href="index.html">Home</a>
+      <a href="awards.html">Filter Zones</a>
+      <a href="about.html">About</a>
+    </div>
+  </div>
+  <div class = "container-fluid">
+      <h2>Search by Zone Id</h2>
+
+  <select class="form-control" id="zoneList">
+    <option value = "1">1</option>
+    <option value = "2">2</option>
+    <option value = "3">3</option>
+    <option value = "4">4</option>
+    <option value = "5">5</option>
+    <option value = "6">6</option>
+    <option value = "7">7</option>
+    <option value = "8">8</option>
+
+  </select>
+<button type="button" class="btn btn-primary" onclick = "searchByZone()">Search</button>
+  </div>>
+  <div class="container-fluid">
+    <ul class="list-group" id = "homeList">
+
+      </ul>
+  </div>
+<body>
+  <!-- your content here... -->
+  <script src="js/index.js"></script>
+</body>
+</html>
